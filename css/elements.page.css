@@ -5,8 +5,13 @@
 */
 
 html {
-
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    color: #111;
 }
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -16,9 +21,13 @@ html {
  */
 
 ::-moz-selection {
-
+    background: #44C8F5;
+    color: white;
+    text-shadow: none;
 }
 
 ::selection {
-
+    background: #44C8F5;
+    color: white;
+    text-shadow: none;
 }
